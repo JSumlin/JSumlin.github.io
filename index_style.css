@@ -10,6 +10,7 @@ body {
 	margin-right: 5%;
 	margin-top: 20px;
 	padding-bottom: 10px;
+	border-radius: 4px;
 }
 
 .pageHeader {
@@ -52,4 +53,25 @@ body {
 
 .externalLinkCell {
 	width: 33%;
+}
+
+#headshot {
+	display: block;
+	height:200px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#myName {
+	margin-top: 0;
+	text-align: center;
+}
+
+a {
+	transition: 0.3s;
+}
+
+a:hover {
+	font-size: 1.5em;
 }
